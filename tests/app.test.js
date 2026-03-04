@@ -17,7 +17,7 @@ describe('API Endpoints', () => {
 	test('GET /version should return 1.0.0 version', async () => {
 		const response = await request(app).get('/version');
 		expect(response.status).toBe(200);
-		expect(response.body.version).toBe('1.0.0');
+		expect(response.body.version).toBe('1.1.0');
 	});
 });
 
